@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+table {
+    border: 1px solid black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 10px 15px 10px;
+}
+
+caption {
+    font-size: 22px;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+
+thead {
+    background-color: rgb(238, 238, 238);
+}
+
+tfoot {
+    background-color: rgb(238, 238, 238);
+}
