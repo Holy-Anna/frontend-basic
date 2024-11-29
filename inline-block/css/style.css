@@ -1,0 +1,204 @@
+@font-face {
+    font-family: "Cera Pro";
+    src: url(../fonts/CeraPro-Regular.woff2),
+        url(../fonts/CeraPro-Regular.woff);
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Cera Pro";
+    src: url(../fonts/CeraPro-Medium.woff2),
+        url(../fonts/CeraPro-Medium.woff);
+    font-display: swap;
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Cera Pro";
+    src: url(../fonts/CeraPro-Bold.woff2),
+        url(../fonts/CeraPro-Bold.woff);
+    font-display: swap;
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Cera Pro";
+    src: url(../fonts/CeraPro-Black.woff2),
+        url(../fonts/CeraPro-Black.woff);
+    font-display: swap;
+    font-weight: 900;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.body {
+    font-family: "Cera Pro", sans-serif;
+    margin: 0;
+    background-color: #ffffff;
+    color: #3D3D3D;
+}
+
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    margin: 30px 0 12px 0;
+    border-bottom: .3px solid rgba(70, 163, 88, 0.50);
+
+
+}
+
+.link-logo {
+    display: inline-block;
+    vertical-align: top;
+    margin: 1px 226px 0 0;
+    text-decoration: none;
+
+
+}
+
+.nav {
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+.nav ul {
+    list-style: none;
+    font-size: 0;
+    padding: 0;
+
+
+}
+
+
+.list-item {
+    display: inline-block;
+    vertical-align: top;
+    padding: 8px 50px 25px 0;
+}
+
+.list-item a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 24px;
+
+
+}
+
+.list-item a:hover {
+    border-bottom: 3px solid #46A358;
+
+}
+
+
+
+.login-btn {
+    background-color: #46A358;
+    color: #ffffff;
+    font-family: inherit;
+    border: none;
+    border-radius: 6px;
+    padding: 7.5px 17px;
+    margin-left: 316.5px;
+    cursor: pointer;
+
+}
+
+.login-btn img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.login-btn span {
+    font-size: 16px;
+    font-weight: 500;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+
+.welcome {
+    background-color: #fafafa;
+    margin-bottom: 52px;
+}
+
+.welcome-box {
+    display: inline-block;
+    vertical-align: top;
+    width: 540px;
+    margin: 68px 105px 85px 40px;
+
+}
+
+.welcome-picture {
+    display: inline-block;
+    vertical-align: top;
+    width: 507px;
+
+}
+
+.welcome-intro {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    padding: 0 0 7px 3px;
+    margin: 0;
+
+
+}
+
+.welcome-title {
+    font-size: 70px;
+    font-weight: 900;
+    line-height: 70px;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    margin: 0;
+
+}
+
+.welcome-title span {
+    color: #46A358;
+}
+
+
+
+.welcome-description {
+    color: #727272;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 0 0 40.5px 3px;
+    margin: 0;
+
+}
+
+.welcome-link {
+    display: inline-block;
+    vertical-align: top;
+    padding: 11px 27px 9px 26px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #46A358;
+    border-radius: 6px;
+    margin-left: 1px;
+}
