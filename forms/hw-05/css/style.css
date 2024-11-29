@@ -1,0 +1,208 @@
+@font-face {
+    font-family: "Cera Pro";
+    src: url(../fonts/CeraPro-Regular.woff2),
+        url(../fonts/CeraPro-Regular.woff);
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Cera Pro";
+    src: url(../fonts/CeraPro-Medium.woff2),
+        url(../fonts/CeraPro-Medium.woff);
+    font-display: swap;
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Cera Pro";
+    src: url(../fonts/CeraPro-Thin.woff2),
+        url(../fonts/CeraPro-Thin.woff);
+    font-display: swap;
+    font-weight: 250;
+    font-style: normal;
+}
+
+.body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #3D3D3D;
+}
+
+* {
+    font-family: "Cera Pro", sans-serif;
+}
+
+.container {
+    position: relative;
+    width: 300px;
+    background-color: #FFFFFF;
+    border-bottom: 10px solid #46A358;
+    padding: 52px 100px 40px;
+
+}
+
+.btn-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    margin-bottom: 40px;
+}
+
+.top-btn {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 16px;
+    background-color: #FFFFFF;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+
+}
+
+.register {
+    color: #46A358;
+}
+
+.line {
+    font-weight: 250;
+    font-size: 18px;
+    line-height: 16px;
+}
+
+
+.input-title {
+    text-align: left;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+}
+
+.input {
+    width: 270px;
+    padding: 12px 14px;
+    border: 1px solid #EAEAEA;
+    border-radius: 5px;
+
+}
+
+::placeholder {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #A5A5A5;
+}
+
+.input-box {
+    margin-bottom: 16px;
+}
+
+.wrapper {
+    position: relative;
+}
+
+.button-eye {
+    position: absolute;
+    justify-content: center;
+    right: 10px;
+    top: 12px;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.img-eye {
+    width: 100%;
+    height: 100%;
+}
+
+.btn-submit {
+    margin-top: 25px;
+    color: #ffffff;
+    background-color: #46A358;
+    width: 100%;
+    padding: 16px 0 13px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.form {
+    margin: 14px 0 36px;
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+    color: #3D3D3D;
+    text-align: left;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    margin-bottom: 27px;
+}
+
+.divider::before,
+.divider::after {
+    content: "";
+    flex: 3;
+    border-bottom: 1px solid #D3D3D3;
+}
+
+.divider::before {
+    margin-right: 10px;
+}
+
+.divider::after {
+    margin-left: 10px;
+}
+
+.bottom-btn {
+    width: 100%;
+    padding: 10px 0;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    background-color: #FFFFFF;
+    color: #727272;
+    text-decoration: none;
+    border: 1px solid #EAEAEA;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.facebook-btn {
+    margin-top: 15px;
+    gap: 4px;
+}
+
+.close-btn {
+    position: absolute;
+    top: 13px;
+    right: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 18px;
+    height: 18px;
+    background-color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
