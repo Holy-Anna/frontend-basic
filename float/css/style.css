@@ -1,0 +1,298 @@
+@font-face {
+    font-family: "Cera Pro";
+    src: url(../fonts/CeraPro-Regular.woff2),
+        url(../fonts/CeraPro-Regular.woff);
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Cera Pro";
+    src: url(../fonts/CeraPro-Bold.woff2),
+        url(../fonts/CeraPro-Bold.woff);
+    font-display: swap;
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Cera Pro";
+    src: url(../fonts/CeraPro-Thin.woff2),
+        url(../fonts/CeraPro-Thin.woff);
+    font-display: swap;
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Hanging Letters";
+    src: url(../fonts/Hanging\ Letters.woff2),
+        url(../fonts/Hanging\ Letters.woff);
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+.body {
+    font-family: "Cera Pro", sans-serif;
+    margin: 0;
+    background-color: #ffffff;
+    color: #3D3D3D;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.section {
+    margin-top: 46px;
+}
+
+
+.left-box {
+    width: 310px;
+    float: left;
+}
+
+.right-box {
+    width: 840px;
+    float: right;
+}
+
+.categories {
+    background-color: #FBFBFB;
+    padding: 14px 18px 19px;
+}
+
+.categories h3 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 16px;
+    margin: 0;
+    padding-bottom: 7px;
+}
+
+.category-list {
+    list-style: none;
+    padding-left: 12px;
+    margin: 0;
+}
+
+.category-list a {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 40px;
+    color: #3D3D3D;
+    text-decoration: none;
+}
+
+.category-list a:hover {
+    color: #46A358;
+}
+
+
+.sort-by {
+    margin-bottom: 31px;
+}
+
+.sort-by-list {
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+.sort-by-list li {
+    float: left;
+    list-style: none;
+}
+
+.sort-by-list button {
+    vertical-align: top;
+    background-color: #ffffff;
+    font-family: inherit;
+    color: #3D3D3D;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 16px;
+    border: none;
+    border-bottom: 2px solid transparent;
+    padding: 0;
+    padding-bottom: 5px;
+    margin-right: 37px;
+}
+
+.sort-by-list button:hover {
+    border-bottom: 2px solid #46A358;
+    color: #46A358;
+}
+
+.sort-by-box {
+    float: right;
+}
+
+.sort-by-box span {
+    float: left;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 16px;
+    padding-right: 7px;
+}
+
+.sort-by-box button {
+    background-color: #ffffff;
+    vertical-align: top;
+    font-family: inherit;
+    color: inherit;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 16px;
+    border: none;
+    padding: 0;
+    padding-right: 20px;
+    background-image: url(../img/arrow.svg);
+    background-repeat: no-repeat;
+    background-position: 100% 65%;
+    cursor: pointer;
+}
+
+.products {
+    margin-bottom: 80px;
+}
+
+.card-product {
+    width: 258px;
+    float: left;
+    margin-right: 33px;
+    margin-bottom: 70px;
+}
+
+.card-product:nth-child(3n) {
+    margin-right: 0;
+}
+
+.card-product:nth-last-child(-n+3) {
+    margin-bottom: 0;
+}
+
+.card-product div {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FBFBFB;
+    margin-bottom: 12px;
+}
+
+.card-product h3 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    margin: 0;
+    padding-bottom: 6px;
+}
+
+.card-product p {
+    color: #46A358;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 16px;
+    margin: 0;
+}
+
+.banner {
+    width: 310px;
+    background: linear-gradient(rgba(70, 163, 88, 0.1), rgba(70, 163, 88, 0.03));
+    text-align: center;
+    padding-top: 20px;
+}
+
+.banner h3 {
+    color: #46A358;
+    font-family: "Hanging Letters", Arial, sans-serif;
+    font-size: 65px;
+    font-weight: 400;
+    line-height: 65px;
+    margin: 0;
+    padding-bottom: 11px;
+}
+
+.banner p {
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 16px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.page-numbers {
+    float: right;
+    margin-bottom: 101px;
+}
+
+.pagination {
+    list-style: none;
+}
+
+.pagination li {
+    float: left;
+}
+
+.pagination a {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 16px;
+    color: inherit;
+    border: 1px solid #E5E5E5;
+    border-radius: 4px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.pagination a:hover {
+    background-color: #46A358;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.next {
+    background-image: url(../img/arrow-next.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.next:hover {
+    background-image: url(../img/arrow-next-white.svg);
+}
+
+/*I used Flexbox to center the pictures inside the gray boxes in the articles because this:
+
+.card-product div {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+}
+didn't work. 
+
+I also used Flexbox to center the page numbers in the pagination links. Now I can insert any two-digit number, and the appearance of the links won’t change.
+
+But, I didn’t use Flexbox to arrange the objects horizontally next to each other.
+*/
