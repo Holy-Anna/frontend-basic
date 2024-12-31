@@ -516,7 +516,6 @@
     margin-bottom: 36px;
 }
 
-
 .categories h3 {
     padding-bottom: 7px;
 }
@@ -587,6 +586,7 @@
     transform: translateY(50%);
     outline: none;
     margin-left: -10px;
+    cursor: pointer;
 }
 
 .slider-amount {
@@ -618,6 +618,7 @@
     background-color: #46A358;
     border-radius: 6px;
     border: 2px solid #46A358;
+    cursor: pointer;
     transition: color .3s, background-color .3s;
 }
 
@@ -647,7 +648,7 @@
     height: 22px;
     border: 1px solid #3d3d3d;
     border-radius: 4px;
-    margin-right: 11px;
+    margin-right: 11px;   
 }
 
 .checkbox:checked+.check-name::before {
@@ -662,6 +663,7 @@
     display: flex;
     align-items: center;
     padding-left: 11px;
+    cursor: pointer;
 }
 
 .check-wrap:hover span {
@@ -1236,35 +1238,36 @@
     background: url(../img/example-03.svg) no-repeat top 31px left 29px;
 }
 
-.offer {
+.join {
     width: 33.333%;
     padding: 37px 29px 23px;
 }
 
-.offer h3 {
+.join h3 {
     font-size: 18px;
     font-weight: 700;
     line-height: 0.888em;
     padding-bottom: 17px;
 }
 
-.offer p {
+.join p {
     color: #727272;
     font-size: 13px;
     line-height: 1.692em;
 }
 
-.offer form {
+.join form {
     display: flex;
     margin-bottom: 17px;
 }
 
-.offer input {
+.join input {
     width: 100%;
     padding: 10px 11px;
     border: 2px solid #ffffff;
     font-family: inherit;
     border-radius: 6px 0 0 6px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.06);
 }
 
 ::placeholder {
@@ -1273,34 +1276,33 @@
     line-height: 1.142em;
 }
 
-.offer input:hover {
+.join input:hover {
     border: 2px solid #46a3597c;
     border-right: none;
 }
 
-.offer input:focus {
+.join input:focus {
     border: 2px solid #46A358;
     border-right: none;
     outline: none;
 }
 
-.offer button {
+.join button {
     display: inline-block;
     color: #ffffff;
     background-color: #46A358;
-    padding: 10px 22px;
+    padding: 12px 24px;
     font-size: 18px;
     font-weight: 700;
     line-height: 0.888em;
     border: none;
     border-radius: 0 6px 6px 0;
-    border: 2px solid #46A358;
-    transition: color .3s, background-color .3s;
+    cursor: pointer;
+    transition: transform .3s;
 }
 
-.offer button:hover {
-    color: #46A358;
-    background-color: #ffffff;
+.join button:hover {
+    transform: scaleX(1.03);
 }
 
 .contacts {
